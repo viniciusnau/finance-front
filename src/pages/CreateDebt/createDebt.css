@@ -1,0 +1,13 @@
+.container-create-debt {
+    height: 100vh;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.header-create-debt {
+    display: flex;
+    height: 80px;
+    align-items: center;
+    margin-bottom: 24px;
+}
