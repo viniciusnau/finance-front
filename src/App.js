@@ -25,7 +25,7 @@ function App() {
         <Route path="/logout" element={<Logout />} />
 
         <Route element={<PrivateRoute />}>
-          <Route path="/" element={<Login />}>
+          <Route path="/" element={<AppMenu />}>
             <Route path="/dashboard" element={<Dashboard />} />
             <Route path="/cadastar-conta" element={<CreateDebt />} />
           </Route>
